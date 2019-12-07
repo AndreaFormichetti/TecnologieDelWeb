@@ -1,0 +1,126 @@
+.welcome-post-sliders .owl-next:hover:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: calc( 50% - 30px );
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid rgba(0, 0, 0, 0.7);
+    clear: both;
+}
+
+.welcome-post-sliders .owl-prev:hover:after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    top: calc( 50% - 30px );
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-right: 40px solid rgba(0, 0, 0, 0.7);
+    clear: both;
+}
+
+.intestazione {
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    font-size: 40px;
+}
+
+.slider {
+    padding: 10px;
+}
+
+.categoria {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+
+.autore {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 30px;
+}
+
+.autore img {
+    border-radius: 100%;
+}
+
+.results-image {
+    height: 240px;
+}
+
+.post-wishlist {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.single-wishlist {
+    width: 100%;
+    height: 220px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.wishimage {
+    height: 200px;
+    width: 300px;
+    padding-right: 10px;
+}
+
+.post-comment-share-area {
+    position: absolute;
+    left: 1050px;
+    top: 185px;
+}
+
+.descrizione-wishlist {
+    width: 600px;
+    overflow: hidden;
+}
+
+.form-box {
+    position: fixed;
+    top: calc(50% - 75px);
+    left: calc(50% - 150px);
+    height: 150px;
+    width: 300px;
+    z-index: 999;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: none;
+}
+
+.profilo {
+    background-color: #ffffff;
+}
+
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.single-form-entry {
+    width: 300px;
+    text-align: center;
+    display: flex;
+}
+
+.single-form-entry > div {
+    display: inline;
+}
+
+.form-entry-label {
+    font-size: 10px;
+}
